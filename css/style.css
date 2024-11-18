@@ -382,7 +382,7 @@ img {
   fill: #404bbf;
 }
 
-.social-media-link {
+.icon-social {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -394,8 +394,8 @@ img {
   background-color: #404bbf;
 }
 
-.social-media-link:hover,
-.social-media-link:focus {
+.icon-social:hover,
+.icon-social:focus {
   background-color: #404bbf;
 }
 .icon-social {
