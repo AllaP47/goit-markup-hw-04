@@ -40,7 +40,15 @@ a {
   margin: 0 auto;
   max-width: 1158px;
 }
-
+.icon-instagram,
+.icon-twitter,
+.icon-facebook,
+.icon-linkedin {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: #f4f4fd;
+}
 .page-header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -240,11 +248,6 @@ button:focus {
   display: flex;
   gap: 24px;
   list-style: none;
-}
-
-.opportunities-box {
-  display: flex;
-  gap: 24px;
 }
 
 .opportunities-item {
@@ -576,7 +579,12 @@ img {
 .footer-social-icon-item:focus {
   background-color: #31d0aa;
 }
-
+.footer-social-icon-link {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  gap: 24px;
+}
 .footer-social-icon {
   fill: #f4f4fd;
 }
