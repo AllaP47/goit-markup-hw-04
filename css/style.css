@@ -393,8 +393,8 @@ img {
   height: 16px;
 }
 
-.icon-social:hover,
-.icon-social:focus {
+.link:hover,
+.link:focus {
   background-color: #404bbf;
 }
 
