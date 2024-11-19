@@ -566,6 +566,7 @@ img {
 .footer-social-icon-item {
   width: 40px;
   height: 40px;
+  border-radius: 50%;
 }
 
 .footer-link {
